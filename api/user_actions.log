@@ -1,0 +1,15 @@
+2024-02-06 23:48:58 [INFO] User signed up: Magdy (seller)
+2024-02-06 23:48:58 [INFO] User logged in: Magdy (seller)
+2024-02-06 23:49:39 [INFO] User logged in: Magdy (seller)
+2024-02-06 23:50:05 [INFO] Seller Magdy added 13 of chipsy costs 10.00 
+2024-02-06 23:50:47 [INFO] Seller Magdy updated the product with id: 1 to: chipsy costs: 8.00 amount available: 10 
+2024-02-06 23:51:06 [INFO] Seller Magdy deleted the chipsy
+2024-02-06 23:51:46 [INFO] Seller Magdy added 120 of spats costs 10.00 
+2024-02-06 23:52:05 [INFO] User logged out: Magdy (seller)
+2024-02-06 23:52:52 [INFO] User signed up: Karim (buyer)
+2024-02-06 23:52:52 [INFO] User logged in: Karim (buyer)
+2024-02-06 23:53:48 [INFO] User logged in: Karim (buyer)
+2024-02-06 23:55:55 [INFO] Buyer Karim made a deposit of 5 coins
+2024-02-06 23:57:22 [INFO] Buyer Karim has reset his credit
+2024-02-06 23:57:45 [INFO] Buyer Karim made a deposit of 100 coins
+2024-02-06 23:59:18 [INFO] Buyer Karim made a purchase of 7 spats and paid 70.00
