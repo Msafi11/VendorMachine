@@ -20,7 +20,7 @@ Follow these steps to run the project on your local machine:
    ```
    *note*: If you find an error while activating myenv :
       - Open powershell as adminstrator.
-      - Write this command the 'y'.
+      - Write this command then 'y'.
         ```
         Set-ExecutionPolicy RemoteSigned
         ```
