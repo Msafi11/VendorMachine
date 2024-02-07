@@ -16,7 +16,7 @@ Follow these steps to run the project on your local machine:
    ```
    python3 -m venv myenv
    source myenv/bin/activate  # On macOS/Linux
-   .\myenv\Scripts\activate       # On Windows
+   myenv\Scripts\activate       # On Windows
    ```
    *note*: If you find an error while activating myenv :
       - Open powershell as adminstrator.
