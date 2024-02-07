@@ -36,11 +36,14 @@ Follow these steps to run the project on your local machine:
 - **POST /api/auth/login/**: Allows users to log in.
 - **POST /api/auth/logout/**: Allows users to log out.
 - **GET /api/products/**: Lists all products and allows creation of a new product.
-- **GET /api/products/product_id/**: Retrieves the product with id=product_id, allowing modification or deletion.
+- **GET /api/products/{product_id}/**: Retrieves the product with id=product_id.
 - **POST /api/deposit/**: Allows users to make a deposit.
 - **POST /api/reset/**: Allows users to reset the deposit.
 - **POST /api/buy/**: Allows users to buy a product.
 - **GET /api/users/**: Lists all users.
+- **DELETE /api/users/{user_id}/**: Deletes a user with the provided user_id.
+- **DELETE /api/products/{product_id}/**: Deletes a product with the provided product_id.
+- **PUT /api/products/{product_id}/**: Modifies the product with id=product_id.
 
 ## Usage
 
