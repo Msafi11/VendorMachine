@@ -7,16 +7,25 @@ The Vendor Machine project is a REST API designed using Python and Django framew
 ## How to Run the Project
 
 Follow these steps to run the project on your local machine:
-
-1. Install [Python 3.11](https://www.python.org/downloads/release/python-3110/). 
-2. Create a virtual environment on your machine and activate it.
+1. Install [Python 3.11](https://www.python.org/downloads/release/python-3110/) and [Git](https://git-scm.com/download/win).
+2. Clone the repo in a new folder
+   ```
+   git clone https://github.com/Msafi11/FlapKap.git
+   ```
+3. Create a virtual environment on your machine and activate it.
    ```
    python3 -m venv myenv
    source myenv/bin/activate  # On macOS/Linux
    myenv\Scripts\activate      # On Windows
    ```
-4. Install project dependencies by running `pip install -r requirements.txt`.
-5. Navigate to the project directory in your terminal.
+   *note*: If you find an error while activating myenv :
+      - Open powershell as adminstrator.
+      - Write this command the 'y'.
+        ```
+        Set-ExecutionPolicy RemoteSigned
+        ```
+4. Navigate to the project directory in your terminal. `cd FlapKap`
+5. Install project dependencies by running `pip install -r requirements.txt`.
 6. Apply database migrations by running `python manage.py makemigrations` followed by `python manage.py migrate`.
 7. Create a superuser account by running `python manage.py createsuperuser` and follow the prompts to create a user with administrative privileges.
 8. Start the development server by running `python manage.py runserver`.
